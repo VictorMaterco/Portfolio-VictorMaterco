@@ -1,0 +1,42 @@
+@media(max-width: 1119px) {
+    body {
+        max-width: 90%;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .home .informacoes {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .projetos .container-projetos {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1119px) and (min-width: 1039px) {
+    .projetos .container-projetos {
+        padding: 0 90px;
+    }
+}
+
+
+@media(max-width: 425px) {
+    .home .informacoes h1 {
+        font-size: 30px;
+    }
+
+    .home .informacoes p {
+        font-size: 16px;
+    }
+
+    .home .container-foto img {
+        max-width: 320px;
+    }
+
+}
